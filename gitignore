@@ -1,0 +1,8 @@
+# Ignore all files in logs directory except important.log
+logs/*
+!logs/important.log
+# Ignore all `.txt` files except `README.txt`
+*.txt
+!README.txt
+# Ignore files in any subdirectory named `temp`
+**/temp/
