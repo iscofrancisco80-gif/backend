@@ -4,12 +4,12 @@ const PORT = process.env.PORT || 8080;
 
 // Middleware to parse JSON and URL-encoded data
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
-// Route: Home
+app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
-    res.send('Welcome to My Backend Server!');
+    res.send('Welcome to My Updated Backend Server!');
 });
+
 
 // Route: API Example
 app.get('/api/user', (req, res) => {
